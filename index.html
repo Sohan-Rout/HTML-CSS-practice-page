@@ -124,32 +124,34 @@
             </section>
 
             <form action="https://httpbin.org/get" method="get">
-                <fieldset>
-                    <legend>Personal Information :</legend>
-
-                    <label for="name">Name :</label>
-                    <input type="text" name="name" id="name" placeholder="Your Name" required>
-                    
-                    <br>
-
-                    <label for="email">Email :</label>
-                    <input type="email" name="emial" id="email" placeholder="your_email@gmail.com" required>
-
-                    <br>
-
-                    <legend id="newsletter">Wish to recieve our newsletter :
-                        <input type="radio" name="yes/no" id="yes" value="yes">
-                        <label class="tags" for="yes">Yes</label>
-                        <input type="radio" name="yes/no" id="no" value="no">
-                        <label class="tags" for="no">No</label>
-                    </legend>
-
-                    <br>
-
-                    <button class="switch" type="submit">Submit</button>
-                    <button class="switch" type="reset">Reset</button>
-
-                </fieldset>
+                <div class="flex-form">
+                    <fieldset>
+                        <legend>Personal Information :</legend>
+    
+                        <label for="name">Name :</label>
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
+                        
+                        <br>
+    
+                        <label for="email">Email :</label>
+                        <input type="email" name="email" id="email" placeholder="your_email@gmail.com" required>
+    
+                        <br>
+    
+                        <legend id="newsletter">Wish to recieve our newsletter :
+                            <input type="radio" name="yes/no" id="yes" value="yes">
+                            <label class="tags" for="yes">Yes</label>
+                            <input type="radio" name="yes/no" id="no" value="no">
+                            <label class="tags" for="no">No</label>
+                        </legend>
+    
+                        <br>
+    
+                        <button class="switch" type="submit">Submit</button>
+                        <button class="switch" type="reset">Reset</button>
+    
+                    </fieldset>
+                </div>
             </form>
         </main>
 

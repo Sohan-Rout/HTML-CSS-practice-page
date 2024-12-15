@@ -125,6 +125,13 @@ input[type=radio] {
     font-family: monospace;
 }
 
+div::flex-form{
+    display: flex;
+    margin-left: 50px;  
+    flex-direction: column;
+    gap: 10px;
+}
+
 .switch {
     text-align: center;
     margin: 2%;
@@ -137,13 +144,7 @@ input[type=radio] {
     font-family: monospace;
 }
 
-input::placeholder {
-    border-radius: 2rem;
-    color: black;
-    background-color:white;
-    padding: 2%;
-    font-family: monospace;
-}
+
 
 footer {
     padding: 5%;
